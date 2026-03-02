@@ -1,0 +1,235 @@
+.first-section{
+    width: 100%;
+    background-color: #292F36;
+    margin: 80px auto;
+    max-width: 1280px;
+}
+
+.first-section-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 26px;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.first-section-card-info {
+/* Left */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: baseline;
+padding: 24px;
+gap: 25px;
+
+width: 260px;
+height: 620px;
+
+/* BG 1 */
+background: #292F36;
+/* White */
+border: 4px solid #FFFFFF;
+box-shadow: -4px -4px 2px #12F7D6;
+border-radius: 160px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.first-section-card-info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.first-section-card-info-content-name{
+    /* Sinan */
+
+/* Logo-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height, or 131% */
+text-transform: capitalize;
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.first-section-card-info-content-job{
+    /* Full-stack developer */
+
+/* Code-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0 0 10px 0;
+
+}
+
+.first-section-card-info-content-image {
+    /* Profile photo */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 96px;
+height: 96px;
+
+background: url(programmer-1653351_1280.png);
+/* Brand 1 */
+border: 1px solid #12F7D6;
+border-radius: 64px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.first-section-card-info-social-media{
+    /* abdurrahman_sinan@hotmail.com */
+
+
+/* Code-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+margin-left: 10px;
+
+}
+
+.first-section-card-tecnologies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.first-section-card-tecnologies-item{
+    /* HTML */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 8px;
+gap: 16px;
+
+/* Brand 1 */
+background: #12F7D6;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.first-section-card-text{
+    max-width: 600px;
+    margin: 0 30px;
+}
+
+.simulated-html{
+/* Code-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+/* Brand 2 */
+color: #98FAEC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+text-align: left;
+
+}
+
+.first-section-card-proggraming-languages{
+/* Highlights */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 28px 42px;
+gap: 48px;
+
+width: 135px;
+height: 378px;
+
+/* BG 2 */
+background: #1A1E23;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.first-section-card-proggraming-languages-div{
+    display: flex;
+    flex-direction: row;
+}

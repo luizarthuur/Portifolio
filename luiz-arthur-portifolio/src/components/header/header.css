@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.header{
+    background-color: #292f36;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header-nav-social-media{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header-nav-social-media-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+}
+
+.header-text-code{
+
+/* Logo-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height, or 131% */
+text-transform: capitalize;
+
+/* Brand 1 */
+color: #12F7D6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.header-text-name{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.header-nav-item{
+
+/* Menu-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-transform: capitalize;
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.header-nav-item:hover{
+    color: #12F7D6;
+}
+
+.header-nav-social-media-item-text{
+
+/* Media-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+text-transform: capitalize;
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .header{
+        height: 60px;
+    }
+
+    .header-text-name, .header-text-code{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-wrap: nowrap;
+    }
+
+    .header-container{
+        padding: 0 10px;
+    }
+
+    .header-nav{
+        gap: 10px;
+        margin: 0 15px;
+    }
+
+    .header-nav-item{
+        font-size: 13px;
+    }
+
+    .header-nav-social-media{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+
+    .header-nav-item{
+        font-size: 14.5px;
+    }
+
+    .header-text-name, .header-text-code{
+        font-size: 14.5px;
+    }
+}
