@@ -11,6 +11,105 @@
 
 .second-section-title {
   margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 30px 40px;
+  width: 367px;
+  height: 104px;
+  background: #292F36;
+  border: 4px solid #12F7D6;
+  border-radius: 40px 0px;
+  flex: none;
+  flex-grow: 0;
+  font-size: 30px;
+}
+
+.second-section-container{
+    display: flex;
+    justify-content: center;
+}
+
+.second-section-flex{
+    max-width: 1280px;
+}
+
+.second-section-container-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.second-section-container-2-image{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 462px;
+height: 610px;
+background: url(nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
+border-radius: 16px;
+flex: none;
+flex-grow: 0;
+}
+
+.second-section-container-2-flex{
+    margin-right: 50px;
+}
+
+.second-section-text {
+    display: block;
+    padding: 24px 40px;
+    width: 100%;
+    max-width: 690px;
+    background: #292F36;
+    border-radius: 40px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.second-section-text-strong{
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+text-transform: capitalize;
+color: #12F7D6;
+flex: none;
+flex-grow: 0;
+}
+
+.second-section-text-strong-2{
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #12F7D6;
+flex: none;
+flex-grow: 0;
+}
+
+.second-section {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.0035 0.005' numOctaves='4' seed='3'/%3E%3CfeDisplacementMap in='SourceGraphic' scale='120'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='none' stroke='%2300c8a0' stroke-width='1' filter='url(%23noise)' opacity='0.18'/%3E%3C/svg%3E");
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.second-section-title {
+  margin: 0;
   /* Title */
 
 box-sizing: border-box;
