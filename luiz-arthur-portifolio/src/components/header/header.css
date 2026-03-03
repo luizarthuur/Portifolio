@@ -67,7 +67,7 @@ color: #12F7D6;
 
 /* Inside auto layout */
 flex: none;
-order: 0;
+
 flex-grow: 0;
 
 }
@@ -99,7 +99,7 @@ color: #FFFFFF;
 
 /* Inside auto layout */
 flex: none;
-order: 1;
+
 flex-grow: 0;
 
 }
@@ -125,7 +125,7 @@ color: #FFFFFF;
 
 /* Inside auto layout */
 flex: none;
-order: 1;
+
 flex-grow: 0;
 
 }
