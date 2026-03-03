@@ -1,8 +1,26 @@
 .first-section{
     width: 100%;
+    height: 100%;
     background-color: #292F36;
-    margin: 80px auto;
-    max-width: 1280px;
+}
+
+.first-section-title{
+    /* developer */
+
+/* BG text-U */
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 134px;
+/* identical to box height, or 115% */
+text-transform: capitalize;
+
+/* Brand 2 */
+color: #98FAEC;
+
+text-align: center;
+margin-bottom: 50px;
 }
 
 .first-section-container{
@@ -10,9 +28,9 @@
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 26px;
+    gap: 36px;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 80px auto;
     width: 100%;
     height: 100%;
 }
@@ -180,6 +198,10 @@ flex-grow: 0;
 .first-section-card-text{
     max-width: 600px;
     margin: 0 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .simulated-html{
@@ -214,7 +236,7 @@ align-items: flex-start;
 padding: 28px 42px;
 gap: 48px;
 
-width: 135px;
+width: 150px;
 height: 378px;
 
 /* BG 2 */
@@ -232,4 +254,108 @@ flex-grow: 0;
 .first-section-card-proggraming-languages-div{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-section-card-proggraming-languages-number{
+    /* 4 */
+
+margin: 0;
+
+/* Number-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 62px;
+/* identical to box height, or 129% */
+text-transform: capitalize;
+
+/* Brand 1 */
+color: #12F7D6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.first-section-card-text-title{
+
+/* H1-U */
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 72px;
+/* identical to box height, or 112% */
+text-transform: initial;
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-bottom: 0;
+
+}
+
+.first-section-card-text-name{
+    color: #12F7D6;
+}
+
+.first-section-card-text-link{
+    /* let’s talk *
+
+/* H2-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height, or 131% */
+text-transform: capitalize;
+
+/* Brand 1 */
+color: #12F7D6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+text-align: left;
+margin-right: 15px;
+}
+
+.first-section-card-text-link-whatsapp{
+    margin-top: 15px;
+}
+
+.first-section-card-text-text{
+    /* I help business grow by crafting amazing web experiences. If you’re looking for a developer that likes to get stuff done, */
+
+/* Para-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
 }

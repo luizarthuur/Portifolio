@@ -3,7 +3,7 @@ import './styles.css';
 export default function FirstSection() {
     return (
         <section className="first-section">
-            <h1>Desenvolvedor Full Stack</h1>
+            <h1 className='first-section-title'>Desenvolvedor Full Stack</h1>
             <div className="first-section-container">
 
                  <div className="first-section-card-info">
@@ -59,15 +59,19 @@ export default function FirstSection() {
                     </div>
 
                     <div>
+                        <a href="/curriculo-luiz-arthur.pdf" download={"curriculo-luiz-arthur.pdf"}>
                         <button>Baixe meu CV</button>
+                        </a>
                     </div>
 
                  </div>
 
                  <div className="first-section-card-text">
-                    <h1><p className='simulated-html'>{"<h1>"}</p>Olá, sou o <strong>Luiz Arthur</strong>, Desenvolvedor Full Stack</h1><p className='simulated-html'>{"</h1>"}</p>
-                    <p className='simulated-html'>{"<p>"}</p> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem esse, sint nihil harum ratione veritatis in. Consectetur nesciunt odio officiis sapiente, vel modi atque. Possimus autem tempore harum sunt rem.</p> <p className='simulated-html'>{"</p>"}</p>
-                    <a href=""><span>Vamos conversar?</span></a>
+                    <h1 className='first-section-card-text-title'><p className='simulated-html'>{"<h1>"}</p>Olá, sou o <strong className='first-section-card-text-name'>Luiz Arthur</strong>, Desenvolvedor Full Stack</h1><p className='simulated-html'>{"</h1>"}</p>
+                    <p className='simulated-html'>{"<p>"}</p> <p className='first-section-card-text-text'>Auxilio empresas no crescimento através da criação de experiências web excepcionais. Se você procura um desenvolvedor focado em resultados: </p> <p className='simulated-html'>{"</p>"}</p>
+                    <a href="https://wa.me/5548984376911" className='first-section-card-text-link-whatsapp'><span className='first-section-card-text-link'>Vamos conversar?</span> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#12F7D6" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                    </svg></a>
                  </div>
 
                  <div className="first-section-card-proggraming-languages">
@@ -78,13 +82,13 @@ export default function FirstSection() {
                     </div>
 
                     <div className='first-section-card-proggraming-languages-div'>
-                        <h3 className='first-section-card-proggraming-languages-number'>6</h3>
-                        <p className='first-section-card-proggraming-languages-text'>Linguagens de programação</p>
+                        <h3 className='first-section-card-proggraming-languages-number'>5</h3>
+                        <p className='first-section-card-proggraming-languages-text'>Ferramentas de desenvolvimento</p>
                     </div>
 
                     <div className='first-section-card-proggraming-languages-div'>
-                        <h3 className='first-section-card-proggraming-languages-number'>8</h3>
-                        <p className='first-section-card-proggraming-languages-text'>Linguagens de programação</p>
+                        <h3 className='first-section-card-proggraming-languages-number'>2</h3>
+                        <p className='first-section-card-proggraming-languages-text'>Anos de experiência</p>
                     </div>
 
                  </div>
