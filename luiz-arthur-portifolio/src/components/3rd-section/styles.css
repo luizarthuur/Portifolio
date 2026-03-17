@@ -1,0 +1,195 @@
+.third-section {
+    position: relative;
+    background-image: url(/home/luiz-arthur/Documentos/Portifolio/luiz-arthur-portifolio/public/computer-program-coding-screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1rem;
+    overflow: hidden;
+    width: 100vw;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.third-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* 0.6 = 60% de escurecimento */
+    z-index: 0;
+}
+
+/* garante que o conteúdo interno fique acima do filtro */
+.third-section > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* garante que o conteúdo interno fique acima do blur */
+.third-section > * {
+    position: relative;
+    z-index: 1;
+}
+
+.third-section-initial-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section-destaque-codigo{
+
+/* H1-U */
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 72px;
+/* identical to box height, or 112% */
+text-transform: capitalize;
+
+/* Brand 1 */
+color: #12F7D6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.third-section-title{
+/* H1-U */
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 72px;
+/* identical to box height, or 112% */
+text-transform: capitalize;
+
+/* Brand 1 */
+color: #12F7D6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.third-section-description{
+
+/* Para-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+text-align: center;
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+.third-section-container-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-top: 64px;
+}
+
+.third-section-card{
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 8px;
+/* Brand 2 */
+background: #98FAEC;
+border-radius: 0px 8px 8px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+border-left: 8px solid #0C73B8;
+width: 380px;
+}
+
+.third-section-card-title{
+    /* Web Developement */
+
+/* Menu-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+text-transform: capitalize;
+
+/* BG 1 */
+color: #292F36;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.third-section-card-text{
+
+
+/* Para-M */
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+text-align: center;
+
+/* Grey */
+color: #43454D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.third-section-images{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px auto;
+}

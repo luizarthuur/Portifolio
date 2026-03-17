@@ -7,7 +7,7 @@ export default function SecondSection() {
     <TopographicBackground/>
     <section className="second-section">
     <div className='second-section-flex'>
-        <div className='second-section-container'><svg width="1664" height="146" viewBox="0 0 1664 146" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className='second-section-container'><svg width="1280" height="146" viewBox="0 0 1664 146" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_33_411)">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M816 16C816 7.16344 823.163 0 832 0C840.837 0 848 7.16344 848 16V28C848 36.8366 840.837 44 832 44H830V43.8762C822.107 42.892 816 36.1592 816 28V16ZM832 40C838.627 40 844 34.6274 844 28V16C844 9.37258 838.627 4 832 4C825.373 4 820 9.37258 820 16V28C820 34.6274 825.373 40 832 40Z" fill="#12F7D6"/>
             <path d="M833.333 9.16663V16.5H830.667V9.16663H833.333Z" fill="#12F7D6"/>
