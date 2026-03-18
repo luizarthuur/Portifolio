@@ -1,3 +1,28 @@
+.fifth-section{
+  position: relative;
+  background-image: url(public/background-5-section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 1rem;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fifth-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* 0.6 = 60% de escurecimento */
+  z-index: 0;
+}
+
+/* garante que o conteúdo interno fique acima do filtro */
+.fifth-section > * {
+  position: relative;
+  z-index: 1;
+}
+
 .fifth-carousel-wrapper {
     display: flex;
     align-items: center;
@@ -97,5 +122,5 @@
   }
 
   .carousel-wrapper{
-    min-height: 360px;
+    height: 500px;
   }
