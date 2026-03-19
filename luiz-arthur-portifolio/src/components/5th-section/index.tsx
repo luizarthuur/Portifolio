@@ -90,7 +90,7 @@ export default function FifthSection() {
                 alt={freelance.alt}
                 className="carousel-image fourth-section-project-image"
               />
-              <p className="carousel-title-text">O que foi feito neste projeto?</p>
+              <p className="carousel-title-text">O que foi feito neste freelance?</p>
               <p className="carousel-card-text">{freelance.text}</p>
             </div>
 

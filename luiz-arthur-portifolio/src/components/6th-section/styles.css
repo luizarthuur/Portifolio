@@ -1,0 +1,81 @@
+.sixth-section{
+    background-color: #292F36;
+}
+.carousel-track-wrapper{
+    margin: 50px 0;
+}
+
+/* ── Sixth Section Carousel ── */
+
+.sixth-section-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.sixth-section-carousel {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.sixth-section-carousel::before,
+.sixth-section-carousel::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.sixth-section-carousel::before {
+    left: 0;
+    background: linear-gradient(to right, #292F36, transparent);
+}
+
+.sixth-section-carousel::after {
+    right: 0;
+    background: linear-gradient(to left, #292F36, transparent);
+}
+
+.carousel-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 60s linear infinite;
+}
+
+.carousel-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.brand-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 55px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+.brand-item img {
+    height: 100px;
+    width: auto;
+    max-width: 250px;
+    object-fit: contain;
+}
+
+.copyright-text{
+    font-size: 9px;
+    color: gray;
+}
+
+.sixth-section{
+    padding-bottom: 50px;
+}

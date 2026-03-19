@@ -3,6 +3,8 @@ import SecondSection from '../2st-section'
 import ThirdSection from '../3rd-section'
 import FourthSection from '../4th-section'
 import FifthSection from '../5th-section'
+import SixthSection from '../6th-section'
+import SeventhSection from '../7th-section'
 
 export default function Body() {
     return (
@@ -12,6 +14,8 @@ export default function Body() {
             <ThirdSection/>
             <FourthSection/>
             <FifthSection/>
+            <SixthSection/>
+            <SeventhSection/>
         </div>
     )
 }
