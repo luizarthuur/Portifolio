@@ -5,21 +5,21 @@ const projects = [
   {
     link: "https://www.cafeorfeu.com.br/",
     linkLabel: "Veja o website",
-    image: "/public/mock-cafe-orfeu.png",
+    image: "/public/Mocks/mock-cafe-orfeu.png",
     alt: "Café Orfeu",
     text: "Desenvolvimento de sistema próprio para controle de quantidades ao longo da experiência de compra do cliente"
   },
   {
     link: "https://www.westcoast.com.br/",
     linkLabel: "Veja o website",
-    image: "/public/mock-west-coast.png",
+    image: "/public/Mocks/mock-west-coast.png",
     alt: "Recco",
     text: "Criação de app exclusivo de videobanner totalmente customizável + Criação de middleware para integração com Master Data, eliminando falhas de autenticação e aumentando a confiabilidade"
   },
   {
     link: "https://www.elian.com.br/quem-somos",
     linkLabel: "Veja o website",
-    image: "/public/mock-elian.png",
+    image: "/public/Mocks/mock-elian.png",
     alt: "Elian",
     text: "Criação de Landing Page contando a história e trajetória da empresa"
 
@@ -27,28 +27,28 @@ const projects = [
   {
     link: "https://www.senffshopping.com.br/",
     linkLabel: "Veja o website",
-    image: "/public/mock-senffnet.png",
+    image: "/public/Mocks/mock-senffnet.png",
     alt: "Senffnet",
     text: "Redesign completo da loja desktop e mobile + Criação de middleware para integração com Master Data, eliminando falhas de autenticação e aumentando a confiabilidade"
   },
   {
     link: "https://www.recco.com.br/",
     linkLabel: "Veja o website",
-    image: "/public/mock-recco.png",
+    image: "/public/Mocks/mock-recco.png",
     alt: "Recco",
     text: "Remodelação do Header e footer da loja, além do redesign da página de produto"
   },
   {
     link: "https://github.com/luizarthuur/Snowlake-Project",
     linkLabel: "Veja o website",
-    image: "/public/mock-snowlake.png",
+    image: "/public/Mocks/mock-snowlake.png",
     alt: "Projeto Snowlake",
     text: "Desenvolvimento fullstack do website com CMS em arquitetura microfrontend, APIs RESTful com Python/FastAPI, autenticação JWT e CI/CD automatizado, do frontend ao backend ao deploy."
   },
   {
     link: "https://www.covabra.com.br/",
     linkLabel: "Veja o website",
-    image: "/public/mock-covabra.png",
+    image: "/public/Mocks/mock-covabra.png",
     alt: "Covabra",
     text: "Criação e suporte de sistema de formulário automatizado trabalhe conosco"
   },

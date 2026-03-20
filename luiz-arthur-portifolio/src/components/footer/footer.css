@@ -1,0 +1,51 @@
+.footer{
+    background-color: #1A1E23;
+    width: 100%;
+    border-top: 1px solid rgb(90, 90, 90);
+}
+
+.footer-main-container{
+    background-color: #1A1E23;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-container-text{
+    /* © 2023 SinanTokmak. All rights reserved. */
+
+/* Para-U */
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.footer-container-link{
+    color: #00F7D7;
+    text-decoration: underline;
+}

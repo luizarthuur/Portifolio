@@ -5,28 +5,28 @@ const freelances = [
   {
     link: "https://hernaneyewear.com.br/quem-usa",
     linkLabel: "Veja o website",
-    image: "/public/mock-hernan-eyewear.png",
+    image: "/public/Mocks/mock-hernan-eyewear.png",
     alt: "Hernan Eyewear",
     text: "Landing page desenvolvida para mostrar quem utiliza os produtos da marca Hernan Eyewear"
   },
   {
     link: "https://cesarreboques.com/",
     linkLabel: "Veja o website",
-    image: "/public/mock-cesar-resgates.png",
+    image: "/public/Mocks/mock-cesar-resgates.png",
     alt: "Cesar Resgates",
     text: "Criação de website para o Cesar Resgates, empresa de resgate de motocicletas, desenvolvimento de website e landing page com WordPress e Elementor, com foco em comunicação clara, design mobile-first e boas práticas de SEO para geração de leads."
   },
   {
     link: "https://hernaneyewear.com.br",
     linkLabel: "Veja o website",
-    image: "/public/mock-hernan-eyewear-2.png",
+    image: "/public/Mocks/mock-hernan-eyewear-2.png",
     alt: "Hernan Eyewear",
     text: "Carrossel dinâmico integrado ao GTM e modal de escolha de lentes na página de produto, melhorando a experiência na jornada de compra do usuário"
   },
   {
     link: "https://gabriela-costa-art.wasmer.app/index.php/elementor-10/",
     linkLabel: "Veja o website",
-    image: "/public/mock-gabriela.png",
+    image: "/public/Mocks/mock-gabriela.png",
     alt: "Cesar Resgates",
     text: "Criação de landing page para artista visual — estúdio de design e portfólio de pinturas, desenvolvimento com WordPress e Elementor, priorizando apresentação estética, navegação fluida e layout mobile-first que reflete a identidade criativa da artista — transformando a própria página em uma extensão da sua arte."
   },
