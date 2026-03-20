@@ -1,5 +1,7 @@
 .sixth-section{
     background-color: #292F36;
+    min-height: 1000px;
+    padding-top: 100px;
 }
 .carousel-track-wrapper{
     margin: 50px 0;
@@ -74,8 +76,4 @@
 .copyright-text{
     font-size: 9px;
     color: gray;
-}
-
-.sixth-section{
-    padding-bottom: 50px;
 }

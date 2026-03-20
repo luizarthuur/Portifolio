@@ -1,6 +1,7 @@
 .seventh-section{
     background-color: #1A1E23;
-    padding-bottom: 50px;
+    min-height: 1000px;
+    padding-top: 100px;
 }
 
 .seventh-section-contact-text{
@@ -90,5 +91,5 @@ width: 140px;
 }
 
 .seventh-section-contact-text-container, .seventh-section-contact-link-container{
-    margin: 50px 0;
+    margin: 70px 0;
 }

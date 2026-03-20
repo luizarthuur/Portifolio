@@ -6,6 +6,8 @@
     background-position: bottom center;
     box-shadow: 1rem;
     overflow: hidden;
+    min-height: 1000px;
+    padding: 100px 0;
 }
 
 .fourth-section::before {

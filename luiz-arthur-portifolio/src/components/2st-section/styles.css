@@ -6,7 +6,8 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.0035 0.005' numOctaves='4' seed='3'/%3E%3CfeDisplacementMap in='SourceGraphic' scale='120'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='none' stroke='%2300c8a0' stroke-width='1' filter='url(%23noise)' opacity='0.18'/%3E%3C/svg%3E");
   align-items: center;
   justify-content: center;
-  padding-bottom: 50px;
+  ;
+  min-height: 1000px;
 }
 
 .second-section-title {

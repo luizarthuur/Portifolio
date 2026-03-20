@@ -7,9 +7,11 @@
     overflow: hidden;
     width: 100vw;
     height: 100%;
-    padding-bottom: 50px;
+    ;
     display: flex;
     justify-content: center;
+    min-height: 1000px;
+    padding: 100px 0;
 }
 
 .third-section::before {
