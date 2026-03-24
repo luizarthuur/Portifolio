@@ -49,3 +49,17 @@ flex-grow: 0;
     color: #00F7D7;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .footer-main-container {
+    height: auto;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 12px;
+  }
+
+  .footer-container-text {
+    font-size: 13px;
+    text-align: center;
+  }
+}

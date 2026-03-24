@@ -126,3 +126,20 @@
   .carousel-wrapper{
     height: 500px;
   }
+
+@media screen and (max-width: 768px) {
+  .fifth-section {
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .fifth-section-description {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .carousel-wrapper {
+    height: auto;
+  }
+}

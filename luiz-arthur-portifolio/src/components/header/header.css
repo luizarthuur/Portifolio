@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    height: 80px;
+    height: 90px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -161,6 +161,10 @@ flex-grow: 0;
     .header-nav-social-media{
         display: none;
     }
+
+    .header-nav {
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 400px) and (max-width: 768px) {
@@ -171,5 +175,24 @@ flex-grow: 0;
 
     .header-text-name, .header-text-code{
         font-size: 14.5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        height: 56px;
+    }
+
+    .header-text-name, .header-text-code {
+        font-size: 12px;
+    }
+
+    .header-nav {
+        gap: 8px;
+        margin: 0 6px;
+    }
+
+    .header-nav-item {
+        font-size: 12px;
     }
 }

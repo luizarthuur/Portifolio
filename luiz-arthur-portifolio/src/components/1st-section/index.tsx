@@ -60,7 +60,7 @@ export default function FirstSection() {
 
                     <div>
                         <a href="/curriculo-luiz-arthur.pdf" download={"curriculo-luiz-arthur.pdf"}>
-                        <button>Baixe meu CV</button>
+                        <button className='first-section-botao-cv'>Baixe meu CV</button>
                         </a>
                     </div>
 

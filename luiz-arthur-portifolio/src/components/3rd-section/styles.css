@@ -195,3 +195,47 @@ flex-grow: 0;
     gap: 100px;
     margin: 100px auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .third-section-container-cards {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .third-section-images {
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .third-section {
+    min-height: auto;
+    padding: 40px 12px;
+  }
+
+  .third-section-title,
+  .third-section-destaque-codigo {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .third-section-description {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .third-section-card {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .third-section-card-title {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+}
+

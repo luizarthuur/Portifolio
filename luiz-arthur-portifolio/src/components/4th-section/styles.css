@@ -203,3 +203,41 @@
       transition: color 0.2s;
       margin-top: 30px;
     }
+
+@media screen and (max-width: 1024px) {
+  .fourth-section-projects-container {
+    padding: 0 16px;
+  }
+
+  .carousel-wrapper {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fourth-section {
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .fourth-section-description {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .carousel-arrow {
+    width: 42px;
+    height: 42px;
+  }
+
+  .carousel-card {
+    max-width: 100%;
+  }
+
+  .carousel-link,
+  .carousel-card-text,
+  .carousel-title-text {
+    text-align: center;
+  }
+}

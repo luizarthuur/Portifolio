@@ -1,5 +1,7 @@
 'use client'
 
+import { useEffect, useState } from 'react'
+
 interface SectionNavigatorProps {
   sections: { icon: React.ReactNode }[]
   currentSection: number
@@ -7,23 +9,55 @@ interface SectionNavigatorProps {
 }
 
 export default function SectionNavigator({ sections, currentSection, onNavigate }: SectionNavigatorProps) {
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const onResize = () => setIsMobile(window.innerWidth <= 768)
+    onResize()
+    window.addEventListener('resize', onResize)
+    return () => window.removeEventListener('resize', onResize)
+  }, [])
+
+  const navStyle: React.CSSProperties = isMobile
+    ? {
+        position: 'fixed',
+        left: '50%',
+        bottom: '16px',
+        transform: 'translateX(-50%)',
+        zIndex: 1000,
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: '4px',
+        padding: '8px 10px',
+        background: 'rgba(20, 22, 28, 0.92)',
+        backdropFilter: 'blur(12px)',
+        WebkitBackdropFilter: 'blur(12px)',
+        borderRadius: '24px',
+        width: 'calc(100vw - 24px)',
+        maxWidth: '430px',
+        overflowX: 'auto',
+        justifyContent: 'center'
+      }
+    : {
+        position: 'fixed',
+        left: '20px',
+        top: '50%',
+        transform: 'translateY(-50%)',
+        zIndex: 1000,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '4px',
+        padding: '10px 8px',
+        background: 'rgba(20, 22, 28, 0.92)',
+        backdropFilter: 'blur(12px)',
+        WebkitBackdropFilter: 'blur(12px)',
+        borderRadius: '24px',
+      }
+
   return (
-    <nav style={{
-      position: 'fixed',
-      left: '20px',
-      top: '50%',
-      transform: 'translateY(-50%)',
-      zIndex: 1000,
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      gap: '4px',
-      padding: '10px 8px',
-      background: 'rgba(20, 22, 28, 0.92)',
-      backdropFilter: 'blur(12px)',
-      WebkitBackdropFilter: 'blur(12px)',
-      borderRadius: '24px',
-    }}>
+    <nav style={navStyle}>
       {sections.map((section, i) => {
         const isActive = i === currentSection
         return (
@@ -32,8 +66,9 @@ export default function SectionNavigator({ sections, currentSection, onNavigate 
             onClick={() => onNavigate(i)}
             title={`Section ${i + 1}`}
             style={{
-              width: '100%',
-              height: '50px',
+              width: isMobile ? '40px' : '100%',
+              minWidth: isMobile ? '40px' : 'auto',
+              height: isMobile ? '40px' : '50px',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
