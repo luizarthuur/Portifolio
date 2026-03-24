@@ -11,8 +11,8 @@ export default function header(){
 
             <nav className="header-nav">
                 <a className='header-nav-item' href="#">Home</a>
-                <a className='header-nav-item' href="#">Sobre</a>
-                <a className='header-nav-item' href="#">Projetos</a>
+                <a className='header-nav-item' href="#sobre">Sobre</a>
+                <a className='header-nav-item' href="#projetos">Projetos</a>
             </nav>
 
             <nav className="header-nav-social-media">

@@ -72,7 +72,7 @@ export default function FourthSection() {
 
   return (
     <>
-      <section className='fourth-section'>
+      <section className='fourth-section' id="projetos">
         <div className='fourth-section-initial-content'>
         <div>
                 <svg width="1280" height="146" viewBox="0 0 1664 146" fill="none" xmlns="http://www.w3.org/2000/svg">

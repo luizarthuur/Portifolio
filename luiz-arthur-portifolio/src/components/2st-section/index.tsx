@@ -5,7 +5,7 @@ export default function SecondSection() {
   return (
     <>
     <TopographicBackground/>
-    <section className="second-section">
+    <section className="second-section" id='sobre'>
     <div className='second-section-flex'>
         <div className='second-section-container'><svg width="1280" height="146" viewBox="0 0 1664 146" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_33_411)">
