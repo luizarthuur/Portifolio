@@ -196,3 +196,12 @@ flex-grow: 0;
         font-size: 12px;
     }
 }
+
+.header-nav-social-media-link:hover{
+    cursor: pointer;
+    color: #12F7D6;
+}
+
+.header-nav-social-media-item-text:hover{
+    color: #12F7D6;
+}
