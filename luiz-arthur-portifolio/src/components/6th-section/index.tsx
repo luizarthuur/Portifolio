@@ -1,18 +1,18 @@
 import './styles.css';
 
 const brands = [
-    { id: 1, name: 'Marca 01', logo: '/public/logos/logocovabra.png' },
-    { id: 2, name: 'Marca 02', logo: '/public/logos/logowestcoast.svg' },
-    { id: 3, name: 'Marca 03', logo: '/public/logos/logocafeorfeu.png' },
-    { id: 4, name: 'Marca 04', logo: '/public/logos/Logo Cesar Resgates simplificada - Sem fundo.png' },
-    { id: 5, name: 'Marca 05', logo: '/public/logos/logo-gabriela.png' },
-    { id: 6, name: 'Marca 06', logo: '/public/logos/recco-logo.jpeg' },
-    { id: 7, name: 'Marca 07', logo: '/public/logos/logo-adega.png' },
-    { id: 8, name: 'Marca 08', logo: '/public/logos/logo-bazar-horizonte.png' },
-    { id: 9, name: 'Marca 09', logo: '/public/logos/logo-bona.png' },
-    { id: 10, name: 'Marca 09', logo: '/public/logos/logo-carajas.png' },
-    { id: 11, name: 'Marca 09', logo: '/public/logos/logo-elian.png' },
-    { id: 12, name: 'Marca 09', logo: '/public/logos/logo-senff.png' },
+    { id: 1, name: 'Marca 01', logo: '/logos/logocovabra.png' },
+    { id: 2, name: 'Marca 02', logo: '/logos/logowestcoast.svg' },
+    { id: 3, name: 'Marca 03', logo: '/logos/logocafeorfeu.png' },
+    { id: 4, name: 'Marca 04', logo: '/logos/Logo Cesar Resgates simplificada - Sem fundo.png' },
+    { id: 5, name: 'Marca 05', logo: '/logos/logo-gabriela.png' },
+    { id: 6, name: 'Marca 06', logo: '/logos/recco-logo.jpeg' },
+    { id: 7, name: 'Marca 07', logo: '/logos/logo-adega.png' },
+    { id: 8, name: 'Marca 08', logo: '/logos/logo-bazar-horizonte.png' },
+    { id: 9, name: 'Marca 09', logo: '/logos/logo-bona.png' },
+    { id: 10, name: 'Marca 09', logo: '/logos/logo-carajas.png' },
+    { id: 11, name: 'Marca 09', logo: '/logo-elian.png' },
+    { id: 12, name: 'Marca 09', logo: '/logos/logo-senff.png' },
 ];
 
 export default function SixthSection() {
