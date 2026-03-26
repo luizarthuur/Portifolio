@@ -6,7 +6,6 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.0035 0.005' numOctaves='4' seed='3'/%3E%3CfeDisplacementMap in='SourceGraphic' scale='120'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='none' stroke='%2300c8a0' stroke-width='1' filter='url(%23noise)' opacity='0.18'/%3E%3C/svg%3E");
   align-items: center;
   justify-content: center;
-  ;
   min-height: 1000px;
 }
 
@@ -99,42 +98,6 @@ flex: none;
 flex-grow: 0;
 }
 
-.second-section-container{
-    display: flex;
-    justify-content: center;
-}
-
-.second-section-flex{
-    max-width: 1280px;
-}
-
-.second-section-container-2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.second-section-container-2-image{
-/* Image */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-width: 462px;
-height: 610px;
-
-background: url(nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
-border-radius: 16px;
-
-/* Inside auto layout */
-flex: none;
-
-flex-grow: 0;
-
-}
 
 @media screen and (max-width: 1024px) {
   .second-section-flex {
@@ -190,64 +153,4 @@ flex-grow: 0;
   .second-section-container-2-flex {
     margin-right: 0;
   }
-}
-
-.second-section-text {
-    display: block; /* era flex - esse é o problema principal */
-    padding: 24px 40px;
-    width: 100%;
-    max-width: 690px;
-    background: #292F36;
-    border-radius: 40px;
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #FFFFFF;
-    text-align: left;
-}
-
-.second-section-text-strong{
-    /* Hello! My name is Sinan and I specialize in web developement that utilizes HTML, CSS, JS, and REACT etc. I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving. When I'm not coding, I am writing bolgs, reading, or picking up some new hands-on art project like photography. I like to have my perspective and belief systems challenged so that I see the world through new eyes. */
-
-/* Para-M */
-font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 42px;
-/* or 131% */
-text-transform: capitalize;
-
-/* Brand 1 */
-color: #12F7D6;
-
-
-/* Inside auto layout */
-flex: none;
-
-flex-grow: 0;
-
-}
-
-.second-section-text-strong-2{
-    /* Hello! My name is Sinan and I specialize in web developement that utilizes HTML, CSS, JS, and REACT etc. I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving. When I'm not coding, I am writing bolgs, reading, or picking up some new hands-on art project like photography. I like to have my perspective and belief systems challenged so that I see the world through new eyes. */
-/* Para-M */
-font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-/* or 125% */
-
-/* Brand 1 */
-color: #12F7D6;
-
-
-/* Inside auto layout */
-flex: none;
-
-flex-grow: 0;
-
 }
