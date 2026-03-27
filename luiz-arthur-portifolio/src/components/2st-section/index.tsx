@@ -50,7 +50,7 @@ export default function SecondSection() {
             <span className='simulated-html'>{"</p>"}</span>
             </p>
         </div>
-        <img src="/minha-foto.jpg" alt="Imagem Luiz Arthur" className='second-section-container-2-image' />
+        <img src="/minha-foto.png" alt="Imagem Luiz Arthur" className='second-section-container-2-image' />
     </div>
     </div>
     </section>
